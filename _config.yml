@@ -1,1 +1,42 @@
-theme: jekyll-theme-hacker
+# Site Settings
+title: JavaScript Room | Frontend Blog
+email: js.room@jahoo.com
+description: Tips and tricks related to front-end and web-development
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://roomjs.com" # the base hostname & protocol for your site
+# google_analytics: "UA-XXXXXXXX-X"
+
+# User Settings
+username: JavaScript Room
+user_description: Tips and tricks related to front-end and web-development
+# disqus_username: disqus_username
+
+# Social Media
+# Remove the item if you don't need it
+github_username: room-js
+facebook_username: roomjs
+twitter_username: room_js
+instagram_username: room_js
+medium_username: yuridrabik
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  # - title: About
+  #   url: /about/
+  # - title: Contact
+  #   url: /contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
