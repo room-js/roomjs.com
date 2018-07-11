@@ -5,6 +5,9 @@ description: Your best advisor in the IT world
 baseurl: /
 url: "http://roomjs.com" # the base hostname & protocol for your site
 
+# Google Analytics ID
+gauid: "UA-122151429-1"
+
 # Build settings
 markdown: kramdown
 # highlighter: rouge
