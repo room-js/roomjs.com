@@ -7,4 +7,11 @@ layout: main
     <h2>Web Development Consulting Agency</h2>
     {% include contactform.html %}
     {% include socialbuttons.html %}
+    <a
+        id="btn-jobs"
+        href="https://jobs.roomjs.com"
+        title="Opened jobs across the world"
+    >
+        Jobs
+    </a>
 </div>
