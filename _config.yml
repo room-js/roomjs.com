@@ -1,24 +1,17 @@
 # Site Settings
-title: JavaScript Room | Web Development Consulting
-email: js.room@jahoo.com
-description: Your best advisor in the IT world
+title: "JavaScript Room | Web Development Consulting"
+email: "info@roomjs.com"
+description: "JavaScript Room - your best advisor in the IT world!"
 baseurl: /
-url: "http://roomjs.com" # the base hostname & protocol for your site
+ogimage: "/img/jsroom-og.png"
+url: "https://roomjs.com" # the base hostname & protocol for your site
 
 # Google Analytics ID
 gauid: "UA-122151429-1"
 
 # Build settings
 markdown: kramdown
-# highlighter: rouge
-# permalink: /:title/
 
 # Plugins
 # plugins:
 #   - jemoji
-
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: JavaScript Room | Web Development Consulting
-    url: /

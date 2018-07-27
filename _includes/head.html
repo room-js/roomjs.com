@@ -18,6 +18,28 @@
   <meta name="theme-color" content="#ffffff">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:type" content: "website">
+  <meta property="og:url" content= "{{site.url}}{{page.url}}">
+  <meta property="og:description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:locale" content= "en_US">
+  <meta property="og:site_name" content="{{site.title}}">
+  <meta property="og:image" content="{{ site.url }}{%if page.ogimage %}{{ page.ogimage }}{% else %}{{ site.ogimage }}{% endif %}">
+  <meta property="og:image:url" content="{{ site.url }}{%if page.ogimage %}{{ page.ogimage }}{% else %}{{ site.ogimage }}{% endif %}">
+  <meta property="og:image:secure_url" content="{{ site.url }}{%if page.ogimage %}{{ page.ogimage }}{% else %}{{ site.ogimage }}{% endif %}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="1200">
+
+  <!-- twitter card -->
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="twitter:description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="twitter:url" content= "{{ site.url }}{{page.url}}">
+  <meta property="twitter:image" content="{{ site.url }}{%if page.ogimage %}{{ page.ogimage }}{% else %}{{ site.ogimage }}{% endif %}">
 
   <script src="/assets/vendor/particles.min.js"></script>
   <script src="/assets/js/main.js"></script>
