@@ -10,7 +10,7 @@ layout: main
     <a
         class="btn btn-jobs"
         href="https://jobs.roomjs.com"
-        title="Opened jobs across the world"
+        title="Find or post Frontend jobs"
     >
         Jobs
     </a>
