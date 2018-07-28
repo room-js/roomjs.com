@@ -43,7 +43,7 @@ h2 {
   z-index: 1;
 }
 
-#btn-jobs {
+.btn-jobs {
   display: block;
   position: absolute;
   border: 2px solid #fff;
@@ -58,4 +58,13 @@ h2 {
   text-decoration: none;
   z-index: 1;
   bottom: 10px;
+}
+
+.btn {
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
 }

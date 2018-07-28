@@ -8,7 +8,7 @@ layout: main
     {% include contactform.html %}
     {% include socialbuttons.html %}
     <a
-        id="btn-jobs"
+        class="btn btn-jobs"
         href="https://jobs.roomjs.com"
         title="Opened jobs across the world"
     >
