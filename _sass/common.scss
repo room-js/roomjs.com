@@ -1,20 +1,16 @@
+@import "_variables";
+
 body,
 html {
   width: 100%;
   height: 100%;
   margin: 0;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #282c34;
+  font-family: 'Roboto Mono', sans-serif;
+  color: $grey;
 }
 
-.main-logo {
-  display: block;
-  height: 150px;
-  width: 100%;
-  background-image: url('/assets/img/new-logo-nobg.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+* {
+  box-sizing: border-box;
 }
 
 h1 {
@@ -27,47 +23,43 @@ h1 {
 h2 {
   margin: 10px 0;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
-}
-
-.btn-main {
-  display: block;
-  border: 2px solid #fff;
-  border-radius: 10px;
-  color: #fff;
-  padding: 10px 30px;
-  font-family: 'Roboto Mono', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  width: auto;
-  text-decoration: none;
-  z-index: 1;
 }
 
 .btn-jobs {
   display: block;
   position: absolute;
-  border: 2px solid #fff;
+  border: 2px solid $green;
   border-radius: 6px;
-  color: #fff;
+  color: $green;
   margin-top: auto;
   padding: 5px 15px;
   text-transform: uppercase;
-  font-family: 'Roboto Mono', sans-serif;
   font-size: 16px;
   width: auto;
   text-decoration: none;
   z-index: 1;
-  bottom: 10px;
+  bottom: 20px;
 }
 
 .btn {
   transition: all .2s ease-in-out;
 
   &:hover {
-    color: #f0f0f0;
-    border-color: #f0f0f0;
+    color: $blue;
+    border-color: $blue;
+  }
+}
+
+.contact-email {
+  width: 300px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 0;
+
+  span {
+    text-transform: uppercase;
   }
 }
