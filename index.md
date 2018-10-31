@@ -16,11 +16,17 @@ layout: main
     </div>
 
     {% include socialbuttons.html %}
-    <a
-        class="btn btn-jobs"
-        href="https://jobs.roomjs.com"
-        title="Find or post Frontend jobs"
-    >
-        IT Jobs
-    </a>
+    <div class="footer-btn-container">
+        <a
+            class="btn"
+            href="http://shop.roomjs.com"
+            title="Merch @ JavaScript Room"
+            target="_blank"
+        >Shop</a>
+        <a
+            class="btn"
+            href="https://jobs.roomjs.com"
+            title="IT jobs portal"
+        >IT Jobs</a>
+    </div>
 </div>
