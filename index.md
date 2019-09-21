@@ -27,6 +27,7 @@ layout: main
             class="btn"
             href="https://jobs.roomjs.com"
             title="IT jobs portal"
+            target="_blank"
         >IT Jobs</a>
     </div>
 </div>

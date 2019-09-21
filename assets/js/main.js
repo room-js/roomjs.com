@@ -1,1 +1,3 @@
-particlesJS.load('particles-js', 'assets/particles.json');
+window.initParticlesJS = function() {
+  particlesJS.load('particles-js', 'assets/particles.json');
+}
