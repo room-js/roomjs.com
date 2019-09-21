@@ -1,12 +1,15 @@
 <script src="/assets/js/main.js"></script>
 <script
   async
+  defer
   src="//cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
   onload="window.initParticlesJS()"
 ></script>
-<script src="//c6.patreon.com/becomePatronButton.bundle.js" async></script>
+<script src="//c6.patreon.com/becomePatronButton.bundle.js" async defer></script>
 
-<script>
+{% include ga.html %}
+
+<script async defer>
   (function () {
     var qs, js, q, s, d = document,
       gi = d.getElementById,
