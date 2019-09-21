@@ -22,12 +22,14 @@ layout: main
             href="http://shop.roomjs.com"
             title="Merch @ JavaScript Room"
             target="_blank"
+            rel="noopener noreferrer"
         >Shop</a>
         <a
             class="btn"
             href="https://jobs.roomjs.com"
             title="IT jobs portal"
             target="_blank"
+            rel="noopener noreferrer"
         >IT Jobs</a>
     </div>
 </div>
