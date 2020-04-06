@@ -1,0 +1,14 @@
+{
+  "vetur.grammar.customBlocks": {
+    "page-query": "graphql",
+    "static-query": "graphql"
+  },
+  "editor.tabSize": 2,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "vue"
+  ],
+  "javascript.implicitProjectConfig.checkJs": true
+}
