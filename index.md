@@ -3,7 +3,9 @@ layout: main
 ---
 
 <!-- <h1>JavaScript Room</h1> -->
-<img id="logo" src="/assets/img/logo-text-horizontal.png" />
+<div>
+  <img id="logo" src="/assets/img/logo-text-horizontal.png" />
+</div>
 
 <h2>&lt;blog about web development /&gt;</h2>
 
