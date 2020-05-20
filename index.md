@@ -13,13 +13,23 @@ layout: main
 <div class="btn-container">
   <a
     class="btn"
-    href="http://shop.roomjs.com"
+    href="https://shop.roomjs.com"
     title="Merch for devs"
     target="_blank"
     rel="noopener noreferrer"
   >
     <i class="fas fa-tshirt"></i>
     Online store
+  </a>
+  <a
+    class="btn"
+    href="http://mentor.roomjs.com"
+    title="Mentorship"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i class="fas fa-user-graduate"></i>
+    Mentorship
   </a>
   <a
     class="btn"
