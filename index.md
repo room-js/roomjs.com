@@ -23,7 +23,7 @@ layout: main
   </a>
   <a
     class="btn"
-    href="http://mentor.roomjs.com"
+    href="https://calendly.com/room_js"
     title="Mentorship"
     target="_blank"
     rel="noopener noreferrer"
