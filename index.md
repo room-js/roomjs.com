@@ -58,7 +58,7 @@ layout: main
     rel="noopener noreferrer"
   >
     <i class="fas fa-envelope"></i>
-    Contact us
+    Send email
   </a>
   <a
     class="btn blue"
