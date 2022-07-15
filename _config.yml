@@ -7,7 +7,7 @@ ogimage: "/img/jsroom-og.png"
 url: "https://roomjs.com" # the base hostname & protocol for your site
 
 # Google Analytics ID
-gauid: "UA-122151429-1"
+gauid: "G-VN0VLRSRZ2"
 
 # Build settings
 markdown: kramdown
