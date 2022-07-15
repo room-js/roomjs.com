@@ -12,36 +12,6 @@ layout: main
 <div class="btn-container">
   <a
     class="btn"
-    href="https://enquiry.roomjs.com"
-    title="Enquiry form"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <i class="fab fa-wpforms"></i>
-    Enquiry form
-  </a>
-  <a
-    class="btn"
-    href="https://mentor.roomjs.com"
-    title="Mentorship"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <i class="fas fa-user-graduate"></i>
-    Mentorship
-  </a>
-  <a
-    class="btn"
-    href="https://jobs.roomjs.com"
-    title="IT jobs portal"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <i class="fas fa-suitcase"></i>
-    IT Jobs
-  </a>
-  <a
-    class="btn"
     href="https://shop.roomjs.com"
     title="Merch for devs"
     target="_blank"
