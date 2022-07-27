@@ -16,6 +16,10 @@ html {
   box-sizing: border-box;
 }
 
+.align-right {
+  text-align: right;
+}
+
 h1 {
   font-family: 'Teko', sans-serif;
   font-weight: 500;
@@ -27,16 +31,6 @@ h1 {
 #logo {
   width: 300px;
   height: auto;
-}
-
-h2 {
-  margin: 10px 0;
-  line-height: 30px;
-  font-size: 20px;
-  letter-spacing: 2px;
-  font-family: 'Teko', sans-serif;
-  font-weight: 400;
-  color: $grey;
 }
 
 .main-container {
@@ -62,9 +56,10 @@ h2 {
   width: 300px;
   font-family: 'Teko', sans-serif;
   letter-spacing: 3px;
-  padding: 5px 15px;
+  padding: 8px 15px 5px;
   text-transform: uppercase;
   font-size: 26px;
+  line-height: 30px;
   text-decoration: none;
   border: 2px solid $green;
   border-radius: 0;
@@ -92,6 +87,63 @@ h2 {
       border-color: $grey;
     }
   }
+
+  &.grey {
+    color: $grey;
+    border-color: $grey;
+
+    &:hover {
+      color: $blue;
+      border-color: $blue;
+    }
+  }
+
+  &.cta-btn {
+    --angle: 0deg;
+    border-image: linear-gradient(var(--angle), $blue, $green) 1;
+    animation: 5s rotate linear infinite;
+  }
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.services-desc {
+  margin: 10px 0;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  color: $grey;
+  max-width: 300px;
+}
+
+.cta-text {
+  margin: 0;
+  line-height: 24px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+  color: $grey2;
+  width: 300px;
+
+  span {
+    color: $green;
+  }
+
+  &:last-of-type {
+    margin-bottom: 20px;
+  }
 }
 
 // tablet and desktop
@@ -100,12 +152,19 @@ h2 {
     width: 620px;
   }
 
-  h2 {
-    font-size: 45px;
+  .services-desc {
+    font-size: 35px;
     margin: 30px 0;
+    max-width: none;
   }
 
   .btn-container {
     width: 640px;
+  }
+
+  .cta-text {
+    width: 620px;
+    font-size: 22px;
+    line-height: 30px;
   }
 }

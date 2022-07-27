@@ -1,7 +1,7 @@
 # Site Settings
-title: "JavaScript Room | Web Development Consulting"
+title: "JavaScript Room | Web Development | Consulting | Blog"
 email: "info@roomjs.com"
-description: "JavaScript Room - your best advisor in the IT world!"
+description: "Use the best modern technologies to build digital worlds of the future"
 baseurl: /
 ogimage: "/img/jsroom-og.png"
 url: "https://roomjs.com" # the base hostname & protocol for your site
