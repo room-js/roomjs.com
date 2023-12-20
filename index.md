@@ -15,6 +15,13 @@ layout: main
   <span>Modern, fast and efficient</span> technologies. <span>Best SEO</span> practices.
 </p>
 
+<pre class="projects">
+projects: {
+  <a href="https://investorean.com" target="_blank">investorean</a>: "Stock market research tools for traders",
+  <a href="https://github.com/yurist38/linkedin-video-downloader" target="_blank">LinkedIn Video Downloader</a>: "Google Chrome extention with 30K+ user base"
+}
+</pre>
+
 <div>
   <a
     class="btn blue cta-btn"
